@@ -13,7 +13,7 @@ This project merges 29,979 trades from 8 Hyperliquid accounts (Jan 2024 – May 
 ```
 ├── README.md                          # this file
 ├── analysis.py                        # full analysis pipeline (data → charts)
-├── Trader_Sentiment_Analysis.docx     # written report with findings
+├── Trader_Sentiment_Analysis.pdf      # written report with findings
 ├── chart1_pnl_winrate.png             # avg PnL & win rate by sentiment
 ├── chart2_position_size.png           # avg position size by sentiment
 ├── chart3_correlation.png             # daily PnL vs. sentiment index, scatter + trend
@@ -52,6 +52,4 @@ Outputs all four charts to `./output/` and prints the underlying summary tables 
 - Correlation ≠ causation: sentiment may be a lagging co-indicator of the same volatility/liquidity conditions that drive PnL, rather than a direct cause. This has not been tested with a control for volatility or market trend.
 - Per-account results (Section 6 / chart4) vary widely in sample size per cell — cells with small n should be read with proportionally less confidence.
 
-## Author
 
-Prepared as part of the Primetrade.ai Data Science hiring task.
